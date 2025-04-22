@@ -1,0 +1,219 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .profile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(to right, #756c8d, #16344d);
+        padding: 30px;
+        border-bottom: 2px solid #ccc;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .profile-info {
+        flex: 1;
+      }
+
+      .profile-photo-wrapper {
+        flex-shrink: 0;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid #2980b9;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .profile-photo-wrapper:hover {
+        transform: scale(1.05);
+      }
+
+      .profile-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      @media (max-width: 600px) {
+        .profile-header {
+          flex-direction: column;
+          text-align: center;
+        }
+        .profile-photo-wrapper {
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="profile-header">
+      <div class="profile-info">
+        <h1>KIRAN KRISHNA NAIR</h1>
+        <p>| Student |</p>
+        <nav>
+          <a href="index.html">Home</a>
+
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="profile-photo-wrapper">
+        <img
+          src="images/profile.jpg"
+          alt="Profile Photo"
+          class="profile-photo"
+        />
+      </div>
+    </header>
+
+   
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m Kiran Krishna Nair , born in 2006 and I come from Navi Mumbai.
+        Currently doing undergraduation from IIM bangalore. I have completed my
+        schooling from DAV Publlic School, New Panvel. I had the opportunity to
+        be the part of school council, I was the captain of my house,
+        Takshashila. I had organized numerous events in school, which not only
+        honed my leadership skills but also taught me the importance of
+        effective teamwork and coordination. Outside of my academic pursuits, I
+        have a keen interest in analyzing business, economics and political case
+        studies. It's something I'm passionate about, and I often dedicate my
+        free time watching videos about it. I also enjoy participating in Model
+        United Nations (MUNs) as they offer a unique perspective on global
+        politics and demonstrate how international diplomacy and decision-making
+        processes unfold.
+      </p>
+      <p>
+        I’ve grown up in a world of rapid change, where the concept of
+        confidence isn’t just a trait—it’s a tool that shapes the future. My
+        hometown, Thrissur in Kerala, is where my roots lie. Let me tell you
+        Known for its cultural grandeur, Thrissur is the heart of Kerala’s
+        traditional festivals, with the Thrissur Pooram being an iconic event.
+        It’s a celebration of faith, culture, and unity, where thousands gather
+        to witness a spectacular procession of elephants adorned with gold and
+        ornaments. Thrissur teaches you the importance of community strength and
+        unwavering confidence in one’s cultural identity.
+      </p>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="education-grid">
+        <div class="edu-card">
+          <img
+            src="https://i.ytimg.com/vi/2vD1gYvOFm0/maxresdefault.jpg"
+            alt="IIM Bangalore"
+          />
+          <h3>
+            <a href="iim.html">BBA - Digital Business & Entrepreneurship</a>
+          </h3>
+          <p>IIM Bangalore<br />2024 – Present</p>
+        </div>
+        <div class="edu-card">
+          <img
+            src="https://images.uniapply.com/uploads/college/image/500/4810/webp/DAV_Public_School_2853_Building_1_1.webp"
+            alt="School"
+          />
+          <h3><a href="school.html">School Education (10th & 12th)</a></h3>
+          <p>DAV Public School, New Panvel<br />10th: 2022 <br />12th: 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <h2>Education Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2022</h3>
+            <p>
+              Completed 10th Grade<br />CBSE <br />
+              98.6% <br />
+              Ranked 5th in school
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2024</h3>
+            <p>
+              Completed 12th Grade<br />CBSE <br />
+              94.6% <br />Ranked 3rd in Science stream of my school
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2024 – Present</h3>
+            <p>
+              BBA in Digital Business & Entrepreneurship<br />
+              IIM Bangalore
+            <br />Pod Leader
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-grid">
+        <li>
+          <p>Leader</p>
+        </li>
+        <li>
+          <p>Public Speaking</p>
+        </li>
+        <li>
+          <p>Problem Solving abilities</p>
+        </li>
+        <li>
+          <p>Adaptability</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about" class="section">
+    <h2>Achievements</h2>
+    <p>
+      My biggest achievement has been my personal growth journey, particularly in the area of communication and confidence-building. Up until the 10th standard, I was incredibly shy and introverted. However, everything changed in the 11th standard. It was a pivotal year for me. I decided to step out of my comfort zone and take on new challenges. Joining the school council was a turning point. Through my involvement, I had opportunities to anchor on stage during various events. Initially, it was daunting, but with each experience, my public speaking skills began to develop, and my confidence started to grow. Outside of my academic pursuits, I enjoy participating in Model United Nations (MUNs) and I also have a keen interest in analyzing business and political case studies.
+    </p>
+  </section>
+
+    <footer>
+      <p>Designed by Kiran Krishna Nair &copy; 2025</p>
+    </footer>
+
+    <button id="darkToggle">🌙 Toggle Dark Mode</button>
+
+    <script>
+      const toggle = document.getElementById("darkToggle");
+      toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+        localStorage.setItem(
+          "dark-mode",
+          document.body.classList.contains("dark")
+        );
+      });
+
+      if (localStorage.getItem("dark-mode") === "true") {
+        document.body.classList.add("dark");
+      }
+     
+     
+    </script>
+  </body>
+</html>

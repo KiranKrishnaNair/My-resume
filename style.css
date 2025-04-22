@@ -1,0 +1,209 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+  }
+  
+  header, nav {
+    text-align: center;
+    background: linear-gradient(to right, #394674, #937fdb);
+    color: white;
+    padding: 20px;
+  }
+  
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(211, 25, 25);
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    padding: 30px 10%;
+  }
+  
+  .skills-grid {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .skills-grid li {
+    text-align: center;
+  }
+  
+  .skills-grid img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .card {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .table-section table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .education-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .edu-card {
+    background-color: white;
+    padding: 50px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .edu-card img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .timeline {
+    position: relative;
+    margin: 40px auto;
+    padding: 10px 0;
+    max-width: 800px;
+    border-left: 3px solid #3498db;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding: 20px 40px;
+    margin-left: 20px;
+  }
+  
+  .timeline-dot {
+    width: 16px;
+    height: 16px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    left: -11px;
+    top: 25px;
+    border: 2px solid white;
+  }
+  
+  .timeline-content {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  body.dark .timeline-content {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    border: 1px solid #444;
+  }
+  
+  body.dark .timeline-dot {
+    background-color: #f39c12;
+  }
+  /* Toggle button */
+#darkToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  body.dark header,
+  body.dark nav {
+    background: #111;
+  }
+  
+  body.dark .card,
+  body.dark .edu-card {
+    background-color: #2c2c2c;
+    color: #eee;
+    border: 1px solid #444;
+  }
+  
+  body.dark a {
+    color: #4dabf7;
+  }
+  
+  
